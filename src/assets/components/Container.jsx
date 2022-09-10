@@ -7,6 +7,7 @@ function Container(props) {
       direction={{ base: "column", md: "row" }}
       w={{ md: "80%", base: "407px" }}
       h={{ md: "407px", base: "750px" }}
+      maxWidth='1200px'
       borderRadius="22px"
       boxShadow="5px 5px 15px 0px gray"
       position='fixed'
